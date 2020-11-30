@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly manifestVersion='1.0'>
+<assemblyIdentity name="PageFileMon" processorArchitecture="x86" version="1.0.1.0" type="win32"/>
+<description>PAGEFILEMON - WMI Based VBS Script to monitor VIRT_MEM on WIN32 and WIN64 Systems</description>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='True' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Microsoft.Windows.Visual.Basic.Script" version="6.0.0.0" processorArchitecture="x86" language="*" />
+    </dependentAssembly>
+  </dependency>
+</assembly>
